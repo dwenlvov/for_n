@@ -1,5 +1,8 @@
 # for_n
 ## Сам докерфайл
+[Dockerfile](https://github.com/dwenlvov/for_n/blob/main/Dockerfile)
+
+```
 FROM continuumio/miniconda3:latest
 
 WORKDIR /app
@@ -11,7 +14,7 @@ RUN conda install -y mlflow boto3 pymysql \
     && conda clean -afy
 
 CMD ["/app/1.sh"]
-
+```
 
 ## Лог сборки:
 [+] Building 180.7s (8/8) FINISHED                         docker:desktop-linux
