@@ -1,5 +1,7 @@
 # HW по Ansible
 
+[Сам yaml](https://github.com/dwenlvov/for_n/blob/main/Ansible/homework.yaml)
+
 ## yaml
 ```yaml
 - name: Homework Playbook
